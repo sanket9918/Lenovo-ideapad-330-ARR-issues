@@ -51,7 +51,7 @@ dpkg -i linux-image-unsigned-4.19.15-041915-generic_4.19.15-041915.201901130432_
 #### Reboot
 
 
-## Issue-3: Random freezes during normal usage
+## Issue-4: Random freezes during normal usage
 There is a common issue for all the AMD ryzen processors of freezing during the normal usage which is due to the current incompatibility of the Linux Kernel which is partially implemented as of now and it is better to disable the C6 state in order to have a better and stable system performance.
 
 The issue is reported at - https://bugzilla.kernel.org/show_bug.cgi?id=196683
